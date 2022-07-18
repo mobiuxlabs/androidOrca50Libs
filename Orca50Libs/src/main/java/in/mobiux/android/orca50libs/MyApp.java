@@ -1,6 +1,13 @@
 package in.mobiux.android.orca50libs;
 
-import in.mobiux.android.commonlibs.utils.App;
+import android.app.Application;
 
-public class MyApp extends App {
+//import in.mobiux.android.commonlibs.utils.App;
+
+public class MyApp extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
 }

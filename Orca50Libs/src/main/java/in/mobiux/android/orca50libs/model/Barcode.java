@@ -1,6 +1,6 @@
 package in.mobiux.android.orca50libs.model;
 
-import in.mobiux.android.commonlibs.utils.AppUtils;
+//import in.mobiux.android.commonlibs.utils.AppUtils;
 
 /**
  * Created by SUJEET KUMAR on 21-May-21.
