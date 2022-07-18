@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SO Barcode Reader</string>
+
+    <!-- Simple strings. -->
+    <string name="decode">Decode</string>
+    <string name="snap">Snapshot</string>
+    <string name="beep">beep</string>
+    <string name="getparam">Get</string>
+    <string name="setparam">Set</string>
+    <string name="dflparam">Defaults</string>
+    <string name="decoding">decoding</string>
+    <string name="snapping">taking snapshot</string>
+    <string name="pnum">Number</string>
+    <string name="pval">Value</string>
+    <string name="sdl">SDLtestApp</string>
+
+    <string name="enable">EnableAll</string>
+    <string name="disable">DisableAll</string>
+    <string name="reading">Reading Pane</string>
+    <string name="preview">Preview</string>
+    <string name="DecImage">GetDecodedImage</string>
+    <string name="stat">status</string>
+    <string name="handsfree">Hands Free</string>
+    <string name="blank"></string>
+    <string name="data">data</string>
+    <string name="prop">Properties</string>
+    <string name="video">Video</string>
+    <string name="Params">Parameters</string>
+
+    <string name="rfid_tag_dummy">E2 80 68 94 00 00 40 06FC 91 FD 26</string>
+    <string name="save_data_exit_laboratory">Save Data &amp; \nExit Department</string>
+    <string name="lab_equipment_inventory_mangement_system">ASSET INVENTORY MANAGEMENT SYSTEM</string>
+    <string name="transfer_assign">Transfer &amp; \nAssign</string>
+    <string name="data_sync_settings">Data Sync &amp; \nSettings</string>
+    <string name="save_data_finish">Finish</string>
+    <string name="save_data_n_confirm">Save Data &amp; \nConfirm Transfer</string>
+
+    <string name="label_transfer_assign">Transfer &amp; Assign</string>
+    <string name="label_data_sync">Data Sync &amp; Settings</string>
+    <string name="label_device_settings">"Device Settings"</string>
+    <string name="label_asset_inventory">Asset Inventory</string>
+    <string name="label_locate_asset">Locate Asset</string>
+    <string name="label_about_us">About Us</string>
+    <string name="label_license">License Information</string>
+    <string name="label_buzzer_behavior">Buzzer Behavior</string>
+    <string name="label_system_logs_management">System Logs Management...</string>
+    <string name="label_rf_power_output">RF Power Output</string>
+    <string name="label_verification">"Verification"</string>
+    <string name="label_you_are_in">"You are in "</string>
+    <string name="sync_with_server_to_proceed">Sync with server to proceed</string>
+
+    <string name="camera_permission_granted">Camera Permission Granted</string>
+    <string name="camera_permission_denied">Camera Permission Denied</string>
+    <string name="storage_permission_granted">Storage Permission Granted</string>
+    <string name="storage_permission_denied">Storage Permission Denied</string>
+
+    <string name="sync_required">Sync required to proceed</string>
+    <string name="buzzer_mode_set_to">Buzzer Mode set to : </string>
+    <string name="select_option">Select a option to set</string>
+    <string name="ok">OK</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="scanning">Scanning in progress</string>
+    <string name="asset_not_selected">Asset not selected</string>
+    <string name="sync_success">Sync Success</string>
+    <string name="sync_failed">Sync Failed</string>
+    <string name="asset">Asset</string>
+    <string name="not_implemented">Feature coming soon</string>
+    <string name="rssi_unit">dBm</string>
+    <string name="something_went_wrong">Something went wrong. Please try again</string>
+    <string name="choose_an_option_to_update">Choose any option to update</string>
+    <string name="saved_success">Saved Success</string>
+    <string name="lab_not_selected">Lab not selected</string>
+    <string name="saving">Saving</string>
+    <string name="rf_power_output_set_to">RF Power Output set to </string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="connected">Connected</string>
+    <string name="connection_lost">Connection Lost</string>
+    <string name="you_are_logged_in_as">You are logged in as : </string>
+    <string name="syncing_with_server">Syncing with Server</string>
+
+    <string name="about_us_content">"Sensing Objects powered by Footprints is a suite of innovative solutions to address requirements for traceability of products, assets and processes that are essential for business operations in areas such as within inventory management, manufacturing process management, service and maintenance management and logistic processes. \n
+        \nThe portfolio of solutions is brought to you by RFIDdirect Limited and Hito IT Solutions L.L.C.
+        \nRFIDdirect Limited is a specialist supplier of RFID technology within the European market and operates as a Hardware, Software, Consumables and Bureau Service provider to Industrial, Logistics and Retail customers.
+        \n\nHito IT Solutions L.L.C. is an innovative software solutions provider developing and offering cutting edge technology solutions supporting tracking and traceability requirements of Industrial, Logistics and Retail customers.
+        \n\nPlease visit www.sensingobjects.tech to know more.
+        </string>
+
+    <string name="license_content">"This application is supplied to St. George University of London by RFIDdirect Limited. For detailed terms and conditions for this license, please contact
+        \n\nFrits van Calker
+        fvc@rfiddirect.eu
+        \nRFIDdirect Limited
+        Bromfield Commercial Park, Stephen Gray Road, Unit 1, Office 8, Mold, Flintshire, CH7 1HE. United Kingdom
+        \nTel.:
+        +44 (0)845 249 0068
+        +44 (0)1352 752044"</string>
+    <string name="print">Export / Print</string>
+    <string name="selected_department_is">Selected department is : </string>
+    <string name="proceed_to_nscan_inventory">Proceed to \n Scan Inventory</string>
+    <string name="quiet">Quiet</string>
+    <string name="beep_after_an_inventory_round">Beep after an inventory round</string>
+    <string name="beep_after_a_tag_is_identified_for_test_only">Beep after a tag is identified.(For test only)</string>
+    <string name="set">SET</string>
+    <string name="data_sync_nwith_server">Data sync\nwith Server</string>
+    <string name="device_nsettings">Device\nSettings</string>
+    <string name="license_ninformation">license\ninformation</string>
+    <string name="about_us">About Us</string>
+    <string name="rf_power_output">RF Power Output</string>
+    <string name="buzzer_behavior">Buzzer Behavior</string>
+    <string name="system_logs_management">System Logs Management</string>
+    <string name="logout">Logout</string>
+    <string name="asset_ninventory">Asset\nInventory</string>
+    <string name="locate_nasset">Locate \nAsset</string>
+    <string name="return_to_inventory">Return To Inventory</string>
+    <string name="close">Close</string>
+    <string name="verify_to_proceed">Verify to proceed</string>
+    <string name="login">Login</string>
+    <string name="clear">Clear</string>
+    <string name="send_logs_to_server_and_clear_from_device">Send logs to server and clear from device</string>
+    <string name="clear_logs_from_device_only">Clear logs from device only</string>
+    <string name="save">Save</string>
+    <string name="select_asset_to_transfer">Select asset to transfer</string>
+    <string name="department_where_the_asset_should_be">Department where the asset should be:</string>
+    <string name="transfer_asset_to">Transfer Asset To :</string>
+
+    <string name="msg_rfid_selection_required">RFID or Barcode selection required</string>
+    <string name="msg_rfid_connect_initiated">RFID Reader Connect Initiated</string>
+    <string name="msg_rfid_connected">RFID Reader Connected</string>
+    <string name="msg_rfid_already_connected">RFID Reader Already Connected</string>
+    <string name="msg_rfid_scanning">Scanning RFID</string>
+    <string name="msg_barcode_initiated">Barcode Reader Connect Initiated</string>
+    <string name="msg_barcode_connected">Barcode Reader Connected</string>
+    <string name="msg_barcode_already_connected">Barcode Reader Already Connected</string>
+    <string name="msg_barcode_scanning">Scanning Barcode</string>
+    <string name="msg_scanned">Scanned</string>
+
+    <string name="the_barcode_read_is">The Barcode read is</string>
+
+    <string-array name="dummmy_spinner">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+</resources>

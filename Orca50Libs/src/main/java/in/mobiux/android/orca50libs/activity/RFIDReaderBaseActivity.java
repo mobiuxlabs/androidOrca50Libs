@@ -1,4 +1,4 @@
-package in.mobiux.android.orca50libs.rfid;
+package in.mobiux.android.orca50libs.activity;
 
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -10,7 +10,6 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import in.mobiux.android.orca50libs.BaseActivity;
 import in.mobiux.android.orca50libs.model.OperationTag;
 import in.mobiux.android.orca50libs.model.RFIDTag;
 import in.mobiux.android.orca50libs.rfid.core.RFIDReader;
@@ -32,7 +31,7 @@ public class RFIDReaderBaseActivity extends BaseActivity implements RFIDReaderLi
     @Override
     protected void onResume() {
         super.onResume();
-//        logger.i(TAG, "onResume");
+        logger.i(TAG, "onResume");
 
         rfidReader = new RFIDReader(getApplicationContext());
         rfidReader.connect(Reader.ReaderType.RFID);
@@ -42,7 +41,7 @@ public class RFIDReaderBaseActivity extends BaseActivity implements RFIDReaderLi
     @Override
     protected void onPause() {
         super.onPause();
-//        logger.i(TAG, "onPause");
+        logger.i(TAG, "onPause");
 
         rfidReader.releaseResources();
         rfidReader.unregisterListener(this);
@@ -51,28 +50,28 @@ public class RFIDReaderBaseActivity extends BaseActivity implements RFIDReaderLi
 
     @Override
     public void onScanningStatus(boolean status) {
-//        logger.i(TAG, "Scanning Status " + status);
+        logger.i(TAG, "Scanning Status " + status);
     }
 
     @Override
     public void onRfidScan(RFIDTag rfidTag) {
-//        logger.i(TAG, "");
+        logger.i(TAG, "");
         tags.put(rfidTag.getEpc(), rfidTag);
     }
 
     @Override
     public void onOperationTag(OperationTag operationTag) {
-//        logger.i(TAG, "onOperationTag " + operationTag.strEPC);
+        logger.i(TAG, "onOperationTag " + operationTag.strEPC);
     }
 
     @Override
     public void onRFIDScanEnd(RFIDTag.InventoryTagEnd tagEnd) {
-//        logger.i(TAG, "Scan End " + tagEnd.mTagCount);
+        logger.i(TAG, "Scan End " + tagEnd.mTagCount);
     }
 
     @Override
     public void onConnection(boolean status) {
-//        logger.i(TAG, "Connection Status " + status);
+        logger.i(TAG, "Connection Status " + status);
     }
 
     @Override

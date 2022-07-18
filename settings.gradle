@@ -1,3 +1,4 @@
 rootProject.name = "Orca50Reader"
 include ':app'
 include ':Orca50Libs'
+include ':BarcodeReader'

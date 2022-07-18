@@ -2,9 +2,8 @@ package in.mobiux.android.orca50libs.model;
 import com.rfid.rxobserver.bean.RXInventoryTag;
 
 import java.io.Serializable;
-import java.util.Calendar;
 
-//import in.mobiux.android.commonlibs.utils.AppUtils;
+import in.mobiux.android.commonlibs.utils.AppUtils;
 
 /**
  * Created by SUJEET KUMAR on 08-Mar-21.
@@ -17,7 +16,7 @@ public class RFIDTag implements Serializable {
     private String rssi;
     private long updatedAt = System.currentTimeMillis();
     private boolean scanStatus = false;
-    private String timestamp = Calendar.getInstance().getTime().toString();
+    private String timestamp = AppUtils.getFormattedTimestamp();
 
     public String getEpc() {
         return epc;
@@ -66,7 +65,6 @@ public class RFIDTag implements Serializable {
     public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
     }
-
 
 
     @Override
