@@ -44,5 +44,5 @@ dependencies {
     implementation files('libs/jargs-1.0.jar')
     implementation files('libs/juniversalchardet-1.0.3.jar')
 
-    implementation 'com.github.mobiuxlabs:androidLibs:v1.15'
+    implementation 'com.github.mobiuxlabs:androidLibs:v1.16'
 }

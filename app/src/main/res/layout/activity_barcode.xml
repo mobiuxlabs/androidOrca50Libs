@@ -7,8 +7,10 @@
     tools:context=".BarcodeActivity">
 
     <TextView
-        android:layout_width="wrap_content"
         android:id="@+id/tvBarcode"
-        android:layout_height="wrap_content"/>
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>

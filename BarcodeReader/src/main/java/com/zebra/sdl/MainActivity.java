@@ -32,7 +32,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.zebra.adapter.BarcodeAdapter;
 import com.zebra.decoder.BarCodeReader;
 import com.zebra.model.Barcode;
-import com.zebra.util.AppUtils;
 import com.zebra.util.BeeperHelper;
 
 import org.mozilla.universalchardet.CharsetListener;
@@ -45,7 +44,6 @@ import java.util.List;
 import java.util.Map;
 
 import in.mobiux.android.commonlibs.utils.AppLogger;
-import in.mobiux.android.commonlibs.utils.pdf.PdfUtils;
 
 import static com.zebra.sdl.BaseActivity.CAMERA_PERMISSION_CODE;
 import static com.zebra.sdl.BaseActivity.STORAGE_PERMISSION_CODE;
