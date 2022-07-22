@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/mobiuxlabs/androidOrca50Libs.svg)](https://jitpack.io/#mobiuxlabs/androidOrca50Libs)
 
 
-# Reader Library for Orca50 Device
+# Reader Library for Orca50 Device And Lynx Device
 
 Steps 1: add jitpack repo in project-level gradle
    
