@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/mobiuxlabs/androidOrca50Libs.svg)](https://jitpack.io/#mobiuxlabs/androidOrca50Libs)
 
 
-# Barcode Reader Library for Orca50 Device, which uses zebra hardware for scanning
+# Reader Library for Orca50 Device
 
 Steps 1: add jitpack repo in project-level gradle
    
