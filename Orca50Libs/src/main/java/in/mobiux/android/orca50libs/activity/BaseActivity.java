@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import in.mobiux.android.commonlibs.utils.AppLogger;
+import in.mobiux.android.commonlibs.utils.FileUtils;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        FileUtils.init(getApplicationContext());
         logger = AppLogger.getInstance();
     }
 }

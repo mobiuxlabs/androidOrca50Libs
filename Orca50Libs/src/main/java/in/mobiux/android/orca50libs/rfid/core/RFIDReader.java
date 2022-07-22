@@ -37,7 +37,6 @@ public class RFIDReader implements Reader {
     private final Handler mHandler;
     private static RFIDReader INSTANCE = null;
 
-    private App app;
     public static String PORT = "dev/ttyS4";
     public static int BAUD_RATE = 115200;
 
@@ -185,7 +184,6 @@ public class RFIDReader implements Reader {
 
     public RFIDReader(Context context) {
         this.context = context;
-        app = (App) context;
         logger = AppLogger.getInstance();
         session = SessionManager.getInstance(context);
         mHandler = new Handler(context.getMainLooper());
@@ -383,7 +381,7 @@ public class RFIDReader implements Reader {
     private void beep() {
         if (session.getBooleanValue("beep")) {
             logger.i(TAG, "playing beep");
-            BeeperHelper.beep(BeeperHelper.SOUND_FILE_TYPE_NORMAL);
+            BeeperHelper.beep();
         } else {
             logger.i(TAG, "beeper is disabled");
         }
